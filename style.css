@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#name {
+  color: rgb(255, 20, 60);
+  text-transform: uppercase;
+  margin-left: 10%;
+  font-size: 40px;
+}
+
+#signin {
+  background-color: rgb(255, 20, 60);
+  color: white;
+  border: 0px;
+  height: 30px;
+  width: 70px;
+  border-radius: 8%;
+  margin-right: 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+
+  z-index: 2;
+}
+#firstdiv {
+  height: 99vh;
+  width: 100%;
+
+  background-image: url(netfleximage1.jpg);
+}
+
+#firstdiv::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#loginpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+  z-index: 2;
+}
+#text1 {
+  font-size: 50px;
+  color: white;
+}
+#text2 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  padding-top: 15px;
+}
+#text3 {
+  color: rgb(223, 222, 222);
+  font-size: 25px;
+  padding-top: 20px;
+}
+.loginbox {
+  padding-top: 15px;
+}
+#emailbox {
+  width: 300px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+}
+#loginbutton {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  color: aliceblue;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+input[type="email"]::placeholder {
+  color: greyrgb(202, 14, 14);
+  opacity: 1;
+  font-size: 18px;
+}
+.background {
+  background-color: rgba(14, 13, 13, 0.808);
+}
+
+#seconddiv {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+
+  margin-top: 7px;
+  display: flex;
+
+  align-items: center;
+}
+
+#text4 {
+  font-size: 50px;
+  color: white;
+  margin-left: 20%;
+}
+
+#text5 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 20%;
+  padding-top: 20px;
+}
+#text6 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 20%;
+}
+#image1 {
+  padding-left: 20%;
+}
+#thirddiv {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+
+  margin-top: 7px;
+  display: flex;
+
+  align-items: center;
+}
+
+#text7 {
+  color: white;
+  font-size: 50px;
+  margin-left: 20%;
+}
+#text8 {
+  color: rgb(253, 249, 249);
+  font-size: 50px;
+  margin-left: 20%;
+}
+#text9 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 20%;
+  padding-top: 20px;
+}
+
+#fouthdiv {
+  height: 55vh;
+  width: 100%;
+  background-color: black;
+  margin-top: 7px;
+}
+
+#text10 {
+  color: white;
+  font-size: 50px;
+  margin-left: 20%;
+  padding-top: 5%;
+}
+#text11 {
+  color: rgb(253, 249, 249);
+  font-size: 50px;
+  margin-left: 20%;
+}
+#text12 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 20%;
+  padding-top: 20px;
+}
+
+#text13 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 20%;
+}
+#text14 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 20%;
+}
+
+#fifthdiv {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+
+  margin-top: 7px;
+  display: flex;
+
+  align-items: center;
+}
+
+#text15 {
+  color: rgb(253, 249, 249);
+  font-size: 50px;
+  margin-left: 15%;
+}
+#text16 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 15%;
+  padding-top: 20px;
+}
+#text18 {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+  margin-left: 15%;
+}
+
+#sixthdiv {
+  height: 130vh;
+  width: 100%;
+  background-color: black;
+
+  margin-top: 7px;
+}
+
+#text19 {
+  color: rgb(253, 249, 249);
+  font-size: 50px;
+text-transform: capitalize;
+  display: flex;
+
+  justify-content: center;
+}
+
+#question1 {
+  width: 70%;
+  height: 70px;
+  margin-left: 15%;
+  margin-top: 7px;
+  background-color: rgb(69 69 69);
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+#question2 {
+  width: 70%;
+  height: 70px;
+  margin-left: 15%;
+  background-color: rgb(69 69 69);
+  margin-top: 7px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+#question3 {
+  width: 70%;
+  height: 70px;
+  background-color: rgb(69 69 69);
+  margin-left: 15%;
+  margin-top: 7px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+#question4 {
+  width: 70%;
+  height: 70px;
+  margin-left: 15%;
+  background-color: rgb(69 69 69);
+  margin-top: 7px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+}
+#question5 {
+  width: 70%;
+  height: 70px;
+  margin-left: 15%;
+  background-color: rgb(69 69 69);
+  margin-top: 7px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+#question6 {
+  width: 70%;
+  height: 70px;
+  margin-left: 15%;
+  background-color: rgb(69 69 69);
+  margin-top: 7px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#text20 {
+  color: rgb(205, 197, 189);
+  font-size: 20px;
+  margin-top: 20px;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+#loginbox1 {
+  display: flex;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10%;
+  padding-top: 7%;
+}
+
+.container a {
+  color: rgb(69 69 69);
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.sevendiv {
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  margin-top: 7px;
+}
+#eightdiv {
+  margin-top: 25px;
+}
+#nepal {
+  color: rgb(205, 197, 189);
+  margin-top: 25px;
+  margin-left: 10%;
+  text-transform: capitalize;
+}
+#select {
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
+  width: 100px;
+  height: 30px;
+  margin-left: 10%;
+}
+
+#capitalize {
+  text-transform: capitalize;
+}
+#uppercase {
+  text-transform: uppercase;
+}
